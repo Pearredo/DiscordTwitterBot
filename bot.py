@@ -74,7 +74,7 @@ async def on_ready():
         StreamListener = MSL()
         MS = tweepy.Stream(auth = api.auth, listener = StreamListener)
         MS.filter(track=['#python'],is_async=True)
-        await client.get_channel(886795663717834816).send("bot is online")
+        await client.get_channel(INSERT CHANNEL ID HERE).send("bot is online")
         auto_send.start()
     except:
         logging.error("loop cannot start")
@@ -86,8 +86,8 @@ async def auto_send():
     try:
         if None in mess:
             mess.pop()
-            await client.get_channel(886795663717834816).send(":upside_down:")
-        await client.get_channel(886795663717834816).send("http://twitter.com/anyuser/status/"+str(mess.pop()))
+            await client.get_channel(INSERT CHANNEL ID HERE).send(":upside_down:")
+        await client.get_channel(INSERT CHANNEL ID HERE).send("http://twitter.com/anyuser/status/"+str(mess.pop()))
     except:
         logging.debug("none in set")
 
