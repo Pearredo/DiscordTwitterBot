@@ -1,3 +1,9 @@
+WARNING!!!
+
+After Elon Musk made changes to the API of twitter the program no longer works, this project WAS complete years ago as of now i cannot in good faith have this ran today
+
+
+
 # DiscordTwitterBot
 Author: Pedro Arredondo
 Date: 9-21-21
